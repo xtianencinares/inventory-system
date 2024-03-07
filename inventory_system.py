@@ -9,7 +9,7 @@ class InventorySystem:
             self.inventory[item_name] = quantity
         print(f"Added {quantity} {item_name}(s) to the inventory.")
 
-    def update_quantity(self, item_name, new_quantity):
+    def update_quantity(self, item_name, new_quantity): 
         if item_name in self.inventory:
             self.inventory[item_name] = new_quantity
             print(f"Updated {item_name} quantity to {new_quantity}.")
