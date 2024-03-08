@@ -6,7 +6,7 @@ class InventorySystem:
 
     def add_item(self, item_name, quantity):
         if item_name in self.inventory:
-            self.inventory[item_name] += quantity
+            self.inventory[item_name] += quantity 
         else:
             self.inventory[item_name] = quantity
         print(f"Added {quantity} {item_name}(s) to the inventory.")
