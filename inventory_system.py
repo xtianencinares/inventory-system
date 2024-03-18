@@ -25,7 +25,6 @@ class InventorySystem:
 
 # Example usage From Agoo
 
-:
 inventory_system = InventorySystem()
 
 inventory_system.add_item("Laptop", 5)
