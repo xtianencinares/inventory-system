@@ -23,7 +23,9 @@ class InventorySystem:
         for item_name, quantity in self.inventory.items():
             print(f"{item_name}: {quantity}")
 
-# Example usage:
+# Example usage From Agoo
+
+:
 inventory_system = InventorySystem()
 
 inventory_system.add_item("Laptop", 5)
