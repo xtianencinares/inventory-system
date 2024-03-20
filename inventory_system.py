@@ -17,7 +17,7 @@ class InventorySystem:
             print(f"Updated {item_name} quantity to {new_quantity}.")
         else:
             print(f"{item_name} not found in the inventory.")
-
+        
     def display_inventory(self):
         print("Current Inventory:")
         for item_name, quantity in self.inventory.items():
