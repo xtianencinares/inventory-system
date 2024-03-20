@@ -39,4 +39,4 @@ inventory_system.update_quantity("Mouse", 5)  # Item not in the inventory
 inventory_system.display_inventory()
 
 
-#Agoo and MSFT Inc. 2024 TM.
+#Agoo and MSFT Inc. 2024 TM. v1.23
