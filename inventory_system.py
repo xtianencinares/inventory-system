@@ -21,7 +21,7 @@ class InventorySystem:
     def display_inventory(self):
         print("Current Inventory:")
         for item_name, quantity in self.inventory.items():
-            print(f"{item_name}: {quantity}")
+            print(f"{item_name}: {quantity}") 
 
 # Example usage From Agoo
 
