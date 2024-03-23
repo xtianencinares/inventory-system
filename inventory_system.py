@@ -24,7 +24,7 @@ class InventorySystem:
             print(f"{item_name}: {quantity}") 
 
 # Example usage From Agoo
-
+ 
 inventory_system = InventorySystem()
 
 inventory_system.add_item("Laptop", 5)
