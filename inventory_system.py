@@ -34,7 +34,7 @@ inventory_system.add_item("Keyboard", 20)
 inventory_system.display_inventory()
 
 inventory_system.update_quantity("Laptop", 3)
-inventory_system.update_quantity("Mouse", 5)  # Item not in the inventory
+inventory_system.update_quantity("Mouse", 5)  # Item not in the inventory 
 
 inventory_system.display_inventory()
 
