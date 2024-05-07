@@ -23,7 +23,7 @@ class InventorySystem:
         for item_name, quantity in self.inventory.items():
             print(f"{item_name}: {quantity}") 
 
-# Example usage From Agoo
+# Example usage From Agoo 2024
   
 inventory_system = InventorySystem()
 
